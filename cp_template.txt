@@ -9,9 +9,9 @@ using namespace std;
 #define ll long long
 #define ld long double
 
-#define fr(i,n) for(int i=0;i<n;i++)
-#define frp(i,u,n) for(int i=u;i<n;i++)
-#define frr(i,n) for(int i=n;i>=0;i--)
+#define fr(i,n) for(ll i=0;i<n;i++)
+#define frp(i,u,n) for(ll i=u;i<n;i++)
+#define frr(i,n) for(ll i=n;i>=0;i--)
 
 #define vi vector<int>
 #define vl vector<long long>
@@ -31,7 +31,7 @@ int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int t;
+    ll t;
     cin>>t;
     while(t--){
 	solution();
